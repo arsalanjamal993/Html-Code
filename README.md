@@ -3,34 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Arsalan Jamal | Material 3 README</title>
+  <title>Arsalan Jamal | HTML CSS README</title>
   <style>
-    :root {
-      --primary: #6750a4;
-      --on-primary: #ffffff;
-      --surface: #fef7ff;
-      --on-surface: #1c1b1f;
-      --card-bg: #ffffff;
-      --card-shadow: rgba(0, 0, 0, 0.1);
-      --border-radius: 12px;
-      --font-family: 'Segoe UI', Roboto, sans-serif;
-    }
-
     body {
       margin: 0;
-      font-family: var(--font-family);
-      background-color: var(--surface);
-      color: var(--on-surface);
-      line-height: 1.6;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
     }
 
     header {
-      background-color: var(--primary);
-      color: var(--on-primary);
-      padding: 2rem;
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 2rem 1rem;
       text-align: center;
-      border-bottom-left-radius: var(--border-radius);
-      border-bottom-right-radius: var(--border-radius);
     }
 
     header h1 {
@@ -39,8 +25,8 @@
     }
 
     header p {
-      font-size: 1.2rem;
       margin-top: 0.5rem;
+      font-size: 1.2rem;
     }
 
     .container {
@@ -49,17 +35,17 @@
       padding: 0 1rem;
     }
 
-    .card {
-      background-color: var(--card-bg);
-      border-radius: var(--border-radius);
-      box-shadow: 0 4px 8px var(--card-shadow);
+    .section {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       padding: 1.5rem;
       margin-bottom: 2rem;
     }
 
-    .card h2 {
+    .section h2 {
       margin-top: 0;
-      color: var(--primary);
+      color: #2c3e50;
     }
 
     ul {
@@ -69,7 +55,7 @@
     pre {
       background-color: #eee;
       padding: 1rem;
-      border-radius: var(--border-radius);
+      border-radius: 6px;
       overflow-x: auto;
     }
 
@@ -77,7 +63,7 @@
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
-      color: #666;
+      color: #777;
     }
   </style>
 </head>
@@ -85,36 +71,34 @@
 
   <header>
     <h1>🌐 Arsalan Jamal</h1>
-    <p>Crafting reproducible, beginner-friendly tech with Python, AI/ML, and Linux</p>
+    <p>Building reproducible, beginner-friendly tech with HTML, CSS, Python, and Linux</p>
   </header>
 
   <div class="container">
 
-    <div class="card">
+    <div class="section">
       <h2>🚀 Project Overview</h2>
-      <p>This repository showcases clean, semantic HTML templates and reproducible Linux workflows. Built with performance, accessibility, and beginner-friendliness in mind.</p>
+      <p>This repository showcases clean, semantic HTML templates and reproducible Linux workflows. Designed for performance, accessibility, and ease of customization.</p>
     </div>
 
-    <div class="card">
+    <div class="section">
       <h2>📦 Features</h2>
       <ul>
         <li>✅ Semantic HTML5 structure</li>
-        <li>🎨 Material 3-inspired design</li>
-        <li>📱 Responsive layout for all devices</li>
+        <li>🎨 Custom CSS styling with no frameworks</li>
+        <li>📱 Responsive layout for all screen sizes</li>
         <li>⚡ Fast-loading and minimal dependencies</li>
-        <li>🛠 Easy to customize and extend</li>
+        <li>🛠 Easy to extend and integrate</li>
       </ul>
     </div>
 
-    <div class="card">
+    <div class="section">
       <h2>🔧 Getting Started</h2>
-      <pre>
-git clone https://github.com/arsalanjamal/material-readme.git
-cd material-readme
-      </pre>
+      <pre><code>git clone https://github.com/arsalanjamal/html-css-readme.git
+cd html-css-readme</code></pre>
     </div>
 
-    <div class="card">
+    <div class="section">
       <h2>📜 License</h2>
       <p>This project is licensed under the <strong>MIT License</strong> — free to use, modify, and distribute.</p>
     </div>
@@ -122,7 +106,7 @@ cd material-readme
   </div>
 
   <footer>
-    Made with ❤️ using Material 3 principles · © Arsalan Jamal 2025
+    Made with ❤️ using pure HTML & CSS · © Arsalan Jamal 2025
   </footer>
 
 </body>
